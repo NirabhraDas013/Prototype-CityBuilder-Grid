@@ -7,7 +7,8 @@ using UnityEngine;
 /// <summary>
 /// Source https://github.com/lordjesus/Packt-Introduction-to-graph-algorithms-for-game-developers
 /// </summary>
-public class GridSearch {
+public class GridSearch
+{
 
     public struct SearchResult
     {

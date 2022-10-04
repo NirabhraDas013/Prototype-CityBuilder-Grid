@@ -6,7 +6,8 @@ using UnityEngine.EventSystems;
 
 public class InputManager : MonoBehaviour
 {
-    public Action<Vector3Int> OnMouseDown, OnMouseHold;
+    public Action<Vector3Int> OnMouseDown;
+    public Action<Vector3Int> OnMouseHold;
     public Action OnMouseUp;
     private Vector2 cameraMovementVector;
 
